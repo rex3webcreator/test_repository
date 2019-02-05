@@ -1,0 +1,25 @@
+.flexbox-container {
+	display: flex;
+}
+.flexbox-item {
+	box-sizing: border-box;
+	width: 240px;
+	height: 80px;
+	padding-top: 20px;
+	border: 1px solid #404040;
+	text-align: center;
+}
+
+/* ●flex-grow */
+.flexbox-item1-2 {
+	flex-grow: 1;
+}
+.flexbox-item1-3 {
+	/* flex-grow: 3; */
+}
+
+/* ●flex-shrink */
+.flexbox-item2-2 {
+	flex-shrink: 3;
+}
+
